@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "nastaliq";
+    src: url(../public/fonts/IranNastaliq.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: blanchedalmond;
+    background-image: url('../public/image/-5898848762141452743_119.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.App{
+    /* background-color: blanchedalmond; */
+    /* opacity: 0.3; */
+    color: white;
+    text-align: center;
+}
+.mct{
+    font-family: "nastaliq" !important;
+
+}
+.btn{
+    background-color: rgb(13, 205, 13);
+    width: 10rem;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 5px 10px 5px;
+}
